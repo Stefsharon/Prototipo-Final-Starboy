@@ -10,6 +10,7 @@ public class PlayerStats : MonoBehaviour
     public int score = 0;
     public int laserquantity = 5;
     public bool HasKey = false;
+    public bool isInvulnerable = false;
 
     public Action<int> OnTakeDamage;
     public Action<int> OnSetHealth;
@@ -33,6 +34,10 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if(isInvulnerable) return;
+
+        if (currentHealth <= 0) return;
+
         currentHealth -= damage;
         OnTakeDamage?.Invoke(damage);
         if (currentHealth <= 0)

@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using static UnityEngine.InputManagerEntry;
+
 
 public class Player_stats : MonoBehaviour
 {

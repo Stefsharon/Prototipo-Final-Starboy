@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Jail : MonoBehaviour
@@ -6,6 +7,9 @@ public class Jail : MonoBehaviour
     PlayerStats playerStats;
 
     public Andromaco andromaco;
+    public TextMeshProUGUI textPickup;
+    public GameObject textPickupObj;
+
     
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,6 +18,8 @@ public class Jail : MonoBehaviour
         {
             playerInRange = true;
             playerStats = collision.GetComponent<PlayerStats>();
+            textPickup.text = playerStats.HasKey ? "E: Free Andromaco" : "You need a key";
+            textPickupObj.SetActive(true);
            
         }
     }
@@ -24,6 +30,7 @@ public class Jail : MonoBehaviour
         {
             playerInRange = false;
             playerStats = null;
+            textPickupObj.SetActive(false);
             
         }
     }

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor;
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
 using UnityEngine.Profiling;
 using UnityEngine.Rendering.VirtualTexturing;
-using static UnityEditor.PlayerSettings;
+
 
 
 public class Ejercicios : MonoBehaviour
