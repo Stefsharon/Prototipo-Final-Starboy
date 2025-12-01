@@ -18,7 +18,7 @@ public class Jail : MonoBehaviour
         {
             playerInRange = true;
             playerStats = collision.GetComponent<PlayerStats>();
-            textPickup.text = playerStats.HasKey ? "E: Free Andromaco" : "You need a key";
+            textPickup.text = playerStats.HasKey ? "E: Liberar a Andromaco" : "Necesitas una llave";
             textPickupObj.SetActive(true);
            
         }

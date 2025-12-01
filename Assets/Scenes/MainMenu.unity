@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.14117648, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: "Atr\xE1s"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
   m_sharedMaterial: {fileID: 884078319599652607, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
@@ -1699,7 +1699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.14117648, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2502,7 +2502,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Steffy: Programaci\xF3n/Game Design\n\nDelfi: Arte/Game Design"
+  m_text: "Steffy: Dise\xF1adora, Directora creativa & Programadora\n\nDelfi: Artista,
+    Programadora & QA\_Tester"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
   m_sharedMaterial: {fileID: 884078319599652607, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
@@ -2744,7 +2745,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: "Atr\xE1s"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
   m_sharedMaterial: {fileID: 884078319599652607, guid: f944bb303bec433419a5f9ecaa635274, type: 2}

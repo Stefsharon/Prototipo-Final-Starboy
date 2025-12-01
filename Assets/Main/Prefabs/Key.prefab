@@ -184,7 +184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'E: Pick Up'
+  m_text: 'E: Agarrar llave'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
   m_sharedMaterial: {fileID: 884078319599652607, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
