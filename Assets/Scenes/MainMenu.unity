@@ -2502,7 +2502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Steffy: Dise\xF1adora, Directora creativa & Programadora\n\nDelfi: Artista,
+  m_text: "Steffy: Game Designer, Directora creativa & Programadora\n\nDelfi: Artista,
     Programadora & QA\_Tester"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f944bb303bec433419a5f9ecaa635274, type: 2}
